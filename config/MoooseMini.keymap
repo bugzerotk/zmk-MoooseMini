@@ -102,12 +102,12 @@
         };
         UPPER {
             bindings = <
-                &kp 1                           &kp ESC
-                &kp LC(LS(TAB))   &kp LC(T)     &kp ENTER
-                &kp LC(W)         &kp LC(TAB)   &kp SPACE
-                                                &none
+                &kp 1                                 &kp ESC
+                &kp LC(PAGE_UP)   &kp LC(T)           &kp ENTER
+                &kp LC(W)         &kp LC(PAGE_DOWN)   &kp SPACE
+                                                      &none
             >;
-            sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
         MID {
             bindings = <
