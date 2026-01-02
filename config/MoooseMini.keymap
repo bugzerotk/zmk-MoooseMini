@@ -107,7 +107,7 @@
                 &kp LC(W)         &kp LC(PAGE_DOWN)   &kp SPACE
                                                       &none
             >;
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
         };
         MID {
             bindings = <
