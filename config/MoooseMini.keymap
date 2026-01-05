@@ -102,21 +102,21 @@
         };
         UPPER {
             bindings = <
-                &kp 1                                 &kp ESC
-                &kp LC(PAGE_UP)   &kp LC(T)           &kp ENTER
-                &kp LC(W)         &kp LC(PAGE_DOWN)   &kp SPACE
-                                                      &none
+                &kp 1                      &kp ESC
+                &kp LA(LEFT) &kp LC(T)     &kp ENTER
+                &kp LC(W)    &kp LA(RIGHT) &kp SPACE
+                                           &none
             >;
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
         MID {
             bindings = <
-                &kp 2                      &kp ESC
+                &kp 2                      &kp LALT
                 &kp LEFT     &kp UP        &kp ENTER
                 &kp DOWN     &kp RIGHT     &kp SPACE
                                            &none
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
         LOWER {
             bindings = <
