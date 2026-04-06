@@ -107,7 +107,7 @@
                 &kp LC(W)     &kp C_AC_FORWARD &kp SPACE
                                                &none
             >;
-            sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
+            sensor-bindings = <&inc_dec_kp LC(LS(TAB)) LC(TAB)>;
         };
         MID {
             bindings = <
@@ -116,7 +116,7 @@
                 &kp DOWN     &kp RIGHT     &kp SPACE
                                            &none
             >;
-            sensor-bindings = <&inc_dec_kp LC(PAGE_DOWN) LC(PAGE_UP)>;
+            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
         LOWER {
             bindings = <
@@ -125,7 +125,7 @@
                 &kp LG(DOWN)     &kp LG(RIGHT)   &kp SPACE
                                                  &none
             >;
-            sensor-bindings = <&mouse_scroll SCRL_RIGHT SCRL_LEFT>;
+            sensor-bindings = <&mouse_scroll SCRL_LEFT SCRL_RIGHT>;
         };
         TACT {
             bindings = <
